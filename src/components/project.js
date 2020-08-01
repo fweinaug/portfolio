@@ -19,7 +19,7 @@ const Project = ({ title, text, color, tags, logo, screenshot, website, github, 
               </figure>
             </div>
             <div className="level-item">
-              <p className="title is-3" style={{ color: color, fontWeight: 700 }}>
+              <p className="title is-3 has-text-centered has-text-weight-bold" style={{ color: color }}>
                 {title}
               </p>
             </div>
