@@ -58,7 +58,7 @@ const Project = ({ title, text, color, tags, logo, screenshot, website, github, 
               }
               {
                 website
-                  ? <a className="button is-dark is-small" href={website}>
+                  ? <a className="button is-dark is-small ml-1" href={website}>
                       Learn more
                     </a>
                   : null
