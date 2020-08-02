@@ -67,7 +67,7 @@ const Project = ({ title, text, color, tags, logo, screenshot, website, github, 
           </div>
         </div>
         <div className="columns is-mobile is-centered has-background-light">
-          <div className={"column is-paddingless" + (screenshot.aspectRatio < 1.0 ? " is-6-mobile is-5-tablet" : "")}>
+          <div className={"column is-paddingless" + (screenshot.aspectRatio < 1.0 ? " is-6-mobile is-5-tablet py-2" : "")}>
             <figure className="image">
               <Img fluid={screenshot} alt="Screenshot" />
             </figure>
