@@ -1,6 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faLinkedinIn, faTwitter, faXing } from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import Greeting from "./greeting"
 import "./hero.scss"
 
@@ -23,17 +24,20 @@ const Hero = () => (
             </p>
             <div className="buttons">
               <a className="button is-light" href="https://github.com/fweinaug/" title="GitHub">
-                <FontAwesomeIcon icon={faGithub} size="lg"/>
+                <FontAwesomeIcon icon={faGithub} size="lg" />
               </a>
               <a className="button is-light" href="https://twitter.com/fweinaug/" title="Twitter">
-                <FontAwesomeIcon icon={faTwitter} size="lg"/>
+                <FontAwesomeIcon icon={faTwitter} size="lg" />
               </a>
               <a className="button is-light" href="https://www.linkedin.com/in/florian-weinaug-601211b4/"
                  title="LinkedIn">
-                <FontAwesomeIcon icon={faLinkedinIn} size="lg"/>
+                <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
               </a>
               <a className="button is-light" href="https://www.xing.com/profile/Florian_Weinaug" title="Xing">
-                <FontAwesomeIcon icon={faXing} size="lg"/>
+                <FontAwesomeIcon icon={faXing} size="lg" />
+              </a>
+              <a className="button is-light" href="mailto:fweinaug@outlook.com" title="Email">
+                <FontAwesomeIcon icon={faEnvelope} size="lg" />
               </a>
             </div>
           </div>
