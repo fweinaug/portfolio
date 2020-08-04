@@ -1,6 +1,6 @@
 import React from "react"
-import Project from "./project";
-import { graphql, useStaticQuery } from "gatsby";
+import Project from "./project"
+import { graphql, useStaticQuery } from "gatsby"
 
 const path = require(`path`)
 

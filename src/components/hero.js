@@ -1,7 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faLinkedinIn, faTwitter, faXing } from "@fortawesome/free-brands-svg-icons"
-import Greeting from "./greeting";
+import Greeting from "./greeting"
 import "./hero.scss"
 
 const Hero = () => (
